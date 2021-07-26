@@ -21,8 +21,20 @@
         }
 
         .fab {
-            font-size: 60px;
+            font-size: 50px;
 
+        }
+
+        @media screen and (max-width: 450px) {
+            .social-icon {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+
+            .icon-style {
+                padding: 10px;
+            }
         }
     </style>
 </head>
@@ -37,7 +49,7 @@
                 <a class="col-lg-8 navbar-brand d-flex align-items-center" href="#">
                     <img src="images/figma-logo-vector.png" alt="" width="45" height="60"
                         class="d-inline-block align-text-top">
-                    <span class="ps-4">Bootstrap</span>
+                    <span class="ps-4 text-white">Riyajul Kabir</span>
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
@@ -93,19 +105,23 @@
             <div class="col-lg-5">
                 <img class="img-fluid" src="images/Image.png" alt="">
             </div>
-            <div class="col-lg-1 ">
-                <div>
-                    <div class="col-lg-12 col-3 gy-5">
-                        <a href="#"><i class="fab fa-instagram-square"></i></a>
+            <!-- social icon  -->
+            <div class="col-lg-1">
+                <div class="social-icon">
+                    <div class="col-lg-12 gy-5 icon-style">
+                        <a href="https://www.instagram.com/riyajul_kabir/" target="_blank"><i
+                                class="fab fa-instagram-square"></i></a>
                     </div>
-                    <div class="col-lg-12 col-2 py-3">
-                        <a href="#"><i class="fab fa-facebook"></i></a>
+                    <div class="col-lg-12 py-3 icon-style">
+                        <a href="https://web.facebook.com/riyajulkabir797/" target="_blank"><i
+                                class="fab fa-facebook"></i></a>
                     </div>
-                    <div class="col-lg-12 col-2">
-                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                    <div class="col-lg-12 icon-style">
+                        <a href="https://www.linkedin.com/in/riyajul-kabir-rk797/" target="_blank"><i
+                                class="fab fa-linkedin"> </i></a>
                     </div>
-                    <div class="col-lg-12 col-2 pt-3">
-                        <a href="#"><i class="fab fa-github"></i></a>
+                    <div class="col-lg-12  pt-3 icon-style">
+                        <a href="https://github.com/mdriyajulkabir" target="_blank"><i class="fab fa-github"></i></a>
                     </div>
                 </div>
             </div>
